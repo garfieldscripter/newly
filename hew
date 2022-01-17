@@ -16,7 +16,6 @@ local GrabHats = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local Frame_2 = Instance.new("Frame")
 
 --Properties:
 
@@ -162,18 +161,9 @@ TextLabel_2.TextSize = 20.000
 UIAspectRatioConstraint.Parent = Frame
 UIAspectRatioConstraint.AspectType = Enum.AspectType.ScaleWithParentSize
 
-Frame_2.Parent = CMDS
-Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-Frame_2.BorderColor3 = Color3.fromRGB(85, 85, 127)
-Frame_2.BorderSizePixel = 2
-Frame_2.Position = UDim2.new(0.288029999, 0, 0.606619954, 0)
-Frame_2.Size = UDim2.new(0.185475439, 0, 0.431879252, 0)
-Frame_2.ZIndex = 0
-
 -- Scripts:
 
-local function YRBAJ_fake_script() -- Frame.LocalScript 
+local function EEOM_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.SearchBar
@@ -199,16 +189,16 @@ local function YRBAJ_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(YRBAJ_fake_script)()
-local function XWWHO_fake_script() -- Ball.LocalScript 
+coroutine.wrap(EEOM_fake_script)()
+local function PAWMALT_fake_script() -- Ball.LocalScript 
 	local script = Instance.new('LocalScript', Ball)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/garfieldscripter/fe-ball/main/feball'))()
 	end)
 end
-coroutine.wrap(XWWHO_fake_script)()
-local function KFSLIPX_fake_script() -- Ball.HoverEffects 
+coroutine.wrap(PAWMALT_fake_script)()
+local function LNNKIT_fake_script() -- Ball.HoverEffects 
 	local script = Instance.new('LocalScript', Ball)
 
 	local text = script.Parent
@@ -225,16 +215,16 @@ local function KFSLIPX_fake_script() -- Ball.HoverEffects
 		text.TextColor3 = originalColor
 	end)
 end
-coroutine.wrap(KFSLIPX_fake_script)()
-local function SRGZOAF_fake_script() -- Dog.LocalScript 
+coroutine.wrap(LNNKIT_fake_script)()
+local function KYRALEA_fake_script() -- Dog.LocalScript 
 	local script = Instance.new('LocalScript', Dog)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/garfieldscripter/FE-Dog-Pet-not-mine-/main/fe%20dog'))()
 	end)
 end
-coroutine.wrap(SRGZOAF_fake_script)()
-local function WTVOF_fake_script() -- Dog.HoverEffects 
+coroutine.wrap(KYRALEA_fake_script)()
+local function AZMCX_fake_script() -- Dog.HoverEffects 
 	local script = Instance.new('LocalScript', Dog)
 
 	local text = script.Parent
@@ -251,16 +241,16 @@ local function WTVOF_fake_script() -- Dog.HoverEffects
 		text.TextColor3 = originalColor
 	end)
 end
-coroutine.wrap(WTVOF_fake_script)()
-local function LMPLEP_fake_script() -- SCP096.LocalScript 
+coroutine.wrap(AZMCX_fake_script)()
+local function OCANQRW_fake_script() -- SCP096.LocalScript 
 	local script = Instance.new('LocalScript', SCP096)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/garfieldscripter/fe-scp-096/main/scp'))()
 	end)
 end
-coroutine.wrap(LMPLEP_fake_script)()
-local function MRFAPPX_fake_script() -- SCP096.HoverEffects 
+coroutine.wrap(OCANQRW_fake_script)()
+local function NAQR_fake_script() -- SCP096.HoverEffects 
 	local script = Instance.new('LocalScript', SCP096)
 
 	local text = script.Parent
@@ -277,16 +267,16 @@ local function MRFAPPX_fake_script() -- SCP096.HoverEffects
 		text.TextColor3 = originalColor
 	end)
 end
-coroutine.wrap(MRFAPPX_fake_script)()
-local function EBALRK_fake_script() -- GrabHats.LocalScript 
+coroutine.wrap(NAQR_fake_script)()
+local function EWSOEY_fake_script() -- GrabHats.LocalScript 
 	local script = Instance.new('LocalScript', GrabHats)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/garfieldscripter/grabhats/main/bruh'))()
 	end)
 end
-coroutine.wrap(EBALRK_fake_script)()
-local function MRVGSH_fake_script() -- GrabHats.HoverEffects 
+coroutine.wrap(EWSOEY_fake_script)()
+local function TOKUIHT_fake_script() -- GrabHats.HoverEffects 
 	local script = Instance.new('LocalScript', GrabHats)
 
 	local text = script.Parent
@@ -303,8 +293,8 @@ local function MRVGSH_fake_script() -- GrabHats.HoverEffects
 		text.TextColor3 = originalColor
 	end)
 end
-coroutine.wrap(MRVGSH_fake_script)()
-local function ASIHFTE_fake_script() -- Frame.Drag 
+coroutine.wrap(TOKUIHT_fake_script)()
+local function ETLY_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -361,4 +351,4 @@ local function ASIHFTE_fake_script() -- Frame.Drag
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(ASIHFTE_fake_script)()
+coroutine.wrap(ETLY_fake_script)()
